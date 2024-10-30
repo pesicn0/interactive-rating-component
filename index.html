@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container" id="main-page">
+        <div class="img-div">
+            <img src="interactive-rating-component-main/images/icon-star.svg" alt="">
+        </div>
+        <h1>How did we do?</h1>
+        <p>Please let us know how we did with your support request. All feedback is appreciated
+            to help us improve our offering!</p>
+        <div class="ratings">
+            <button class="single-rate"><span>1</span></button>
+            <button class="single-rate"><span>2</span></button>
+            <button class="single-rate"><span>3</span></button>
+            <button class="single-rate"><span>4</span></button>
+            <button class="single-rate"><span>5</span></button>
+        </div>
+        <button class="submit-btn" onclick="submit()">SUBMIT</button>
+    </div>
+    <div class="container success-container">
+        <img src="interactive-rating-component-main/images/illustration-thank-you.svg" alt="" id="thank-you-img">
+        <div class="results"><p>You selected 0 of 5</p></div>
+        <h1>Thank you!</h1>
+        <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+            don't hesitate to get in touch!</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

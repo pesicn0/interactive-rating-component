@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: hsl(213, 19%, 18%);
+    width: 350px;
+    padding: 25px;
+    border-radius: 1.5rem;
+}
+
+.img-div img {
+    height: 16px;
+    width: 16px;
+    margin: auto;
+}
+
+.img-div {
+    background-color: rgb(49, 54, 63);
+    border-radius: 50%;
+    min-height: 16px;
+    padding: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: white;
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ratings {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.single-rate {
+    border: none;
+    background-color: rgb(49, 54, 63);
+    padding: 10px;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-rate span {
+    height: 25px;
+    width: 25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected {
+    background-color: white;
+    color: hsl(216, 12%, 8%);
+}
+
+.submit-btn {
+    width: 100%;
+    border-radius: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.submit-btn:hover {
+    background-color: white;
+}
+
+.single-rate:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
+}
+
+.success-container {
+    text-align: center;
+    display: none;
+}
+
+#thank-you-img {
+    margin-top: 10px;
+}
+
+.results {
+    background-color: rgb(49, 54, 63);
+    color: hsl(25, 97%, 53%);
+    max-width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 1.5rem;
+}
+
+.results p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
